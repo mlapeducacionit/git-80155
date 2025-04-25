@@ -85,3 +85,10 @@ git commit -m "Mensaje descriptivo"
 ```sh
 git diff
 ```
+
+## Listar timeline de commits dentro del repo local
+
+```sh
+git log
+git log --oneline
+```
