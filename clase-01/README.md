@@ -66,3 +66,10 @@ git config --global init-defaultBranch main
 * Staging Area (Area de control de cambios) Se agregan los archivos para darle seguimiento y posteriormente sacarles una foto (commit)
 
 * Local Repo (Area de validación de cambios, donde se registran las modificaciones realizadas) Donde van a estar todas las fotos (commit) que vaya sacando.
+
+## Agrego en el staging area archivo (Area de confirmación)
+
+```sh
+git add <nombre-archivo>
+git add clase-01/README.md
+```
