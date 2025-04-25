@@ -100,3 +100,12 @@ git restore <nombre-archivo>
 git restore clase-01/README.md
 git restore . # todos los archivos
 ```
+
+## Para volver a colocar los archivos que tengo en el SA al WD
+
+```sh
+git restore --staged <nombre-archivo>
+git restore --staged clase-01/README.md
+git restore --staged . # todos los archivos que esten en el staging area
+```
+
