@@ -92,3 +92,11 @@ git diff
 git log
 git log --oneline
 ```
+
+## Para recuperar archivos que están dentro del local repo
+
+```sh
+git restore <nombre-archivo>
+git restore clase-01/README.md
+git restore . # todos los archivos
+```
