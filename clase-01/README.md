@@ -109,3 +109,9 @@ git restore --staged clase-01/README.md
 git restore --staged . # todos los archivos que esten en el staging area
 ```
 
+## .gitignore
+Es un archivo especial que me permite ignorar archivos. Archivo que indique dentro del .gitignore, no va a ser parte del repositorio.
+
+## .gitkeep
+Es un archivo especial, no es parte de git, la idea surge en el comunidad para guardar dentro del repositorio una carpeta vacía.
+
