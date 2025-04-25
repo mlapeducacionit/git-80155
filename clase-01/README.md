@@ -73,3 +73,15 @@ git config --global init-defaultBranch main
 git add <nombre-archivo>
 git add clase-01/README.md
 ```
+
+## Hacer un commit de los cambios que están en el Staging Area
+
+```sh
+git commit -m "Mensaje descriptivo"
+```
+
+## Ver las diferencias entre los archivos que están en el Working Directory contra el Local Repo
+
+```sh
+git diff
+```
