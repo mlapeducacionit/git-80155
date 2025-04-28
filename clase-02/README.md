@@ -62,3 +62,38 @@ git branch -av # -a -> all | -v -> verbose
 ```sh
 git log --oneline --all
 ```
+
+# Ramas (Branches)
+
+## Listar ramas
+
+```sh
+git branch
+```
+
+## Para crear una rama
+
+```sh 
+git branch <nombre-rama>
+git branch dev
+```
+
+## Para cambiar de rama
+
+```sh
+git switch <nombre-rama>
+git switch dev
+```
+
+## Para crear una rama y cambiarme a esa rama
+
+```sh
+git switch -c <nombre-rama>
+git switch -c hotfix
+```
+
+## Si quiero volver a la última rama en la que estuve
+
+```sh
+git switch -
+```
