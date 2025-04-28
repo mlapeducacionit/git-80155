@@ -124,5 +124,6 @@ git merge dev
 
 ```sh
 git push -u origin dev # para asociar la rama local con la rama remota que se va a crear en el github
+git push
 ```
 
