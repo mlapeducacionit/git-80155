@@ -97,3 +97,10 @@ git switch -c hotfix
 ```sh
 git switch -
 ```
+
+## Borrar una rama
+
+```sh
+git branch -d <nombre-rama>
+git branch -d hotfix
+```
