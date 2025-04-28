@@ -34,3 +34,19 @@ git push -u origin main # La primera vez que subo una rama al repositorio remoto
 
 git push # Las sucesivas veces que haga git push, no necesito indicar el remoto y la rama que quiero subir
 ```
+
+# git fetch
+Me actualiza la carpeta .git (Me actualizar la carpeta .git del local con respecto al remoto)
+
+```sh
+git fetch
+git fetch --help
+```
+
+# git pull
+Me traigo (archivos/carpetas) los cambios que están en el remoto al local
+
+```sh
+git pull <remoto> <rama>
+git pull origin main
+```
