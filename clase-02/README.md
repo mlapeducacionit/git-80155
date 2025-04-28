@@ -109,3 +109,13 @@ git branch -d hotfix
 
 * mhutchie.git-graph
 * eamodio.gitlens
+
+## Fusiones (merges)
+Me permite fusionar ramas entre si. llevando los cambios de una rama a otra. Siempre tengo que esta ubicado en la rama donde quiero traerme los cambios. 
+
+Si yo me quiero traer los cambios de dev a main. Tengo que estar parado sobre la rama main y ejecutar el siguiente comando.
+
+```sh
+git switch main
+git merge dev
+```
