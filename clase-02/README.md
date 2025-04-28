@@ -104,3 +104,8 @@ git switch -
 git branch -d <nombre-rama>
 git branch -d hotfix
 ```
+
+# Extensiones Visual Studio Code
+
+* mhutchie.git-graph
+* eamodio.gitlens
