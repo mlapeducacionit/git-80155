@@ -50,3 +50,15 @@ Me traigo (archivos/carpetas) los cambios que están en el remoto al local
 git pull <remoto> <rama>
 git pull origin main
 ```
+
+## Listar ramas locales y remotas
+
+```sh
+git branch -av # -a -> all | -v -> verbose
+```
+
+## Listar commits de todas las ramas disponibles, tanto locales como remotas
+
+```sh
+git log --oneline --all
+```
