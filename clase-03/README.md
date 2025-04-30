@@ -21,3 +21,9 @@ git merge maxi
 ```sh
 git merge --abort
 ```
+
+## Git log extendido.
+
+```sh
+git log --oneline --decorate --graph --all
+```
