@@ -118,3 +118,6 @@ git blame <nombre-archivo> -e o -s # correo o nombre del que hizo el commit
 ```sh
 git blame --help
 ```
+
+## Git Cherry Pick
+Permite selecionar un commit o varios de manera independiente y colocarlos en otra rama.
