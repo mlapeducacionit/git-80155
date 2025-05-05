@@ -139,3 +139,14 @@ git cherry-pick <hash>^..<hash>
 ```sh
 git cherry-pick <hash>..<hash>
 ```
+
+### Para avanzar en la solución si hay conflicto
+Si hay conflicto, solucionarlo y hacer los siguientes pasos
+
+```sh
+git add .
+```
+
+```sh
+git cherry-pick --continue
+```
