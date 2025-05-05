@@ -97,8 +97,8 @@ Compartir código, pasar snippet a otras personas o información que quiero comp
 
 <https://gist.github.com/>
 
-* Secretos -> Solo la persona que tenga el link va a poder verlo. No son privados. 
-* Públicos -> Se van indexar en los motores de búsqueda
+* SECRETOS -> Solo la persona que tenga el link va a poder verlo. No son privados. 
+* PÚBLICOS -> Se van indexar en los motores de búsqueda
 
 ## Proyectos
 Son tableros visuales tipo Kanban donde podemos organizar y visualizar el progreso de nuestras tareas asociar tareas a resolución de issues.
