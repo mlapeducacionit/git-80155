@@ -15,3 +15,17 @@ git stash list
 git stash 
 git stash -m "Describo que guarado dentro de este stash"
 ```
+
+## Recuperar el último stash
+
+```sh
+git stash pop # Si no hay conflicto, lo borra el stash.
+```
+
+## Recuperar cualquier stash de los stashes
+
+```sh
+git stash apply <n>
+git stash apply 2
+git stash apply stash@{2}
+```
