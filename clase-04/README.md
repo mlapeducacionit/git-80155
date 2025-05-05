@@ -91,3 +91,30 @@ Borrar el commit o los commits selecionados y descarta su comentido.
 ```sh
 git reset --hard <hash> # Con cuidado!
 ```
+
+## Gist
+Compartir código, pasar snippet a otras personas o información que quiero compartir. Pueden tener varios archivos y sus revisiones
+
+<https://gist.github.com/>
+
+* Secretos -> Solo la persona que tenga el link va a poder verlo. No son privados. 
+* Públicos -> Se van indexar en los motores de búsqueda
+
+## Proyectos
+Son tableros visuales tipo Kanban donde podemos organizar y visualizar el progreso de nuestras tareas asociar tareas a resolución de issues.
+
+## Issues (Posibles problemas, solución de temas)
+Nos permiten tener un seguimiento sobre posibles bugs o errores en nuestras aplicaciones.
+
+## Git Blame
+Me va a permitir ver línea por línea quien fue el último que modificó esa línea y en que commit se hizo el cambio.
+
+```sh
+git blame <nombre-archivo>
+git blame <nombre-archivo> -L # rango de líneas
+git blame <nombre-archivo> -e o -s # correo o nombre del que hizo el commit
+```
+
+```sh
+git blame --help
+```
