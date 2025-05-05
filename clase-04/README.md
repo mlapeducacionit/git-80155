@@ -68,3 +68,26 @@ git config --global --unset alias.<alias-que-quiero-eliminar>
 git config --global --unset alias.s
 ```
 
+## GIT RESET
+
+### git reset --soft
+Borra el commit o los commit selecionados y coloca su contenido (del commit) en el staging area (index)
+
+```sh
+git reset --soft <hash>
+```
+
+### git reset --mixed (default)
+Borrar el commit o lo commit selecionados y coloca el contenido (de/los commits) en el working directory
+
+```sh
+git reset --mixed <hash>
+git reset <hash>
+```
+
+### git reset --hard
+Borrar el commit o los commits selecionados y descarta su comentido.
+
+```sh
+git reset --hard <hash> # Con cuidado!
+```
