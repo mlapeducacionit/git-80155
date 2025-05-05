@@ -9,3 +9,9 @@ Estructura de datos tipo pila. Auxiliar para guardar temporalmente cambios que t
 ```sh
 git stash list
 ```
+## Crear un stash
+
+```sh
+git stash 
+git stash -m "Describo que guarado dentro de este stash"
+```
