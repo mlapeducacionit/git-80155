@@ -37,3 +37,34 @@ git stash drop # Borra el último elemento ingresado
 git stash drop 1
 git stash drop stash@{1}
 ```
+
+## Alias de git
+Una forma resumida de ejecutar un comando con varios opciones
+
+### Crear Alias
+
+```sh
+git config --global alias.s "status -s"
+git config --global alias.ll "log --oneline --decorate --graph --all"
+```
+
+### Listar Alias
+
+```sh
+git config --global --get-regexp alias
+```
+
+### Usar un alias
+
+```sh
+git s 
+git ll
+```
+
+## Eliminar un alias
+
+```sh
+git config --global --unset alias.<alias-que-quiero-eliminar>
+git config --global --unset alias.s
+```
+
