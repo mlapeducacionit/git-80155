@@ -29,3 +29,11 @@ git stash apply <n>
 git stash apply 2
 git stash apply stash@{2}
 ```
+
+## Borrar un stash
+
+```sh
+git stash drop # Borra el último elemento ingresado
+git stash drop 1
+git stash drop stash@{1}
+```
