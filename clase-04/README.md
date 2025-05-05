@@ -121,3 +121,32 @@ git blame --help
 
 ## Git Cherry Pick
 Permite selecionar un commit o varios de manera independiente y colocarlos en otra rama.
+
+## Selecciono un único commit 
+
+```sh
+git cherry-pick <hash>
+```
+
+### Seleciono varios commits con extremos
+
+```sh
+git cherry-pick <hash>^..<hash>
+```
+
+### Seleciono varios commits sin extremos
+
+```sh
+git cherry-pick <hash>..<hash>
+```
+
+### Para avanzar en la solución si hay conflicto
+Si hay conflicto, solucionarlo y hacer los siguientes pasos
+
+```sh
+git add .
+```
+
+```sh
+git cherry-pick --continue
+```
