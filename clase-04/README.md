@@ -150,3 +150,10 @@ git add .
 ```sh
 git cherry-pick --continue
 ```
+
+### Git Restore para restablecer un archivo a un momento anterior
+
+```sh
+git restore --source <hash> <ruta-al-archivo>
+git restore --source db9bbe5 clase-04/README.md
+```
