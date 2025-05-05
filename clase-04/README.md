@@ -127,3 +127,15 @@ Permite selecionar un commit o varios de manera independiente y colocarlos en ot
 ```sh
 git cherry-pick <hash>
 ```
+
+### Seleciono varios commits con extremos
+
+```sh
+git cherry-pick <hash>^..<hash>
+```
+
+### Seleciono varios commits sin extremos
+
+```sh
+git cherry-pick <hash>..<hash>
+```
